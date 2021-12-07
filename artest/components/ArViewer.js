@@ -19,6 +19,7 @@ const ArViewer = () => {
             value="This content will always face you."
             look-at="[gps-camera]"
             scale="50 50 50"
+            gps-entity-place="latitude: 29.1724305; longitude: -81.0011419;"
           ></a-text>
           <a-camera gps-camera rotation-reader>
             {' '}
